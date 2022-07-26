@@ -42,8 +42,4 @@ export async function obtenerConfiguracion() {
     return await fetchJSON(url);
 }
 
-export async function obtenerImagen(){
 
-    const url = `${urlBase}search/movie?api_key=${apiKey}&language=${lang}&query=${query}&page=${page}`;
-    return await fetchJSON(url);
-}
